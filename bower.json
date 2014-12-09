@@ -1,0 +1,21 @@
+{
+  "name": "angular-dotdotdot",
+  "version": "0.1.0",
+  "license": "GPL v2",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "www"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jQuery.dotdotdot": "https://github.com/BeSite/jQuery.dotdotdot.git"
+  },
+  "resolutions": {
+    "jquery": "~2.1.1"
+  }
+}
