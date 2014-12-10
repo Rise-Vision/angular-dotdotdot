@@ -12,6 +12,7 @@
     "www"
   ],
   "dependencies": {
+    "angular": "~1.3.0",
     "jquery": "~2.1.1",
     "jQuery.dotdotdot": "https://github.com/BeSite/jQuery.dotdotdot.git"
   },
