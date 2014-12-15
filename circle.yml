@@ -26,4 +26,5 @@ deployment:
   production:
     branch: master
     commands:
-      - echo "Should deploy to production here"
+      - echo "Trigger style-guide build"
+      - curl -X POST https://circleci.com/api/v1/project/Rise-Vision/style-guide/tree/master?circle-token=$RISE_CIRCLE_TOKEN
